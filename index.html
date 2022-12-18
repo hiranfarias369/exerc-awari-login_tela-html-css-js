@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+    
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div id="login">
+			<form class="card">
+				<div class="card-header">
+					<h2>Entrar</h2>
+				</div>
+				<div class="card-content">
+					<div class="card-content-area">
+						<label for="user">Usuário</label>
+						<input type="text" id="user" autocomplete="off" />
+					</div>
+					<div class="card-content-area">
+						<label for="password">Senha</label>
+						<input type="password" id="password" autocomplete="off" />
+					</div>
+				</div>
+				<div class="card-footer">
+					<input
+						type="submit"
+						value="Entrar"
+						class="submit"
+						onclick="login();"
+					/>
+
+					<a
+						href="https://github.com/hiranfarias369"
+						class="recuperar_senha"
+						target="_blank"
+						>Esqueceu a senha?</a
+					>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
