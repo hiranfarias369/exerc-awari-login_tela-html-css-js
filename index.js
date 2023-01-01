@@ -1,5 +1,5 @@
 function userIsCorrect(user, password) {
-	return user.value == "denis" && password.value == "654321";
+	return user.value == "hiran" && password.value == "123456";
 }
 
 function login() {
@@ -14,7 +14,7 @@ function login() {
 		alert(
 			"Obrigado sr(a) " +
 				user.value +
-				". \n Em breve nosso sistemas estará disponível para acesso do público"
+				"! \n Teste realizado com sucesso."
 		);
 	} else {
 		alert("Email ou senha incorretos");
